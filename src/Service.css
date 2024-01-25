@@ -1,0 +1,12 @@
+.service
+{
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: 20px;
+}
+.service-item
+{
+    background-color: rgb(200, 159, 159);
+}
